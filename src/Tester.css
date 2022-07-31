@@ -1,0 +1,63 @@
+#main{
+    width: 95%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    border: 2px solid green;
+    margin-top: 10px;
+    height: 17vh;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+#logo{
+    width: 70%;
+    margin: 2px;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center ;
+}
+#search-bar{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: 2px;
+    height: auto;
+}
+
+#forms-ls{
+    width: 40%;
+    margin: 2px;
+    height: auto;
+    /* border: 1px solid red; */
+    text-align: center;
+
+}
+img{
+    width: 13%;
+}
+#heading{
+    /* height: 15vh; */
+    height: auto;
+    width: 70%;
+    margin: auto;
+    border: 1px solid green;
+    text-align: center;
+    margin-top: 35px;
+}
+.dropdon{
+    height: 25vh;
+    width: 25%;
+    /* margin-right: 85px; */
+    margin: auto;
+    border: 1px solid red;
+}
+#drop-main{
+    text-align: center;
+}
+#offers{
+    border: 2px solid crimson;
+    width: 95%;
+    margin: auto;
+    height: 55vh;
+    margin-bottom: 5px;
+}
