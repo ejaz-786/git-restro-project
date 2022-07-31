@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
-import './Tester.css'
+import './Tester.css';
+// import Login from './Login';
 
 class Tester extends Component {
 
-    loginPage = () =>{
-        this.props.mainlogin();
-    }
-
+   test = ()=>{
+    this.props.check2();
+    this.props.checks2();
+    // alert();
+   }
 
   render() {
     return (
@@ -28,15 +30,15 @@ class Tester extends Component {
                 </div>
 
                 <div id='forms-ls'>
-                    <button id='bt-l' onClick={this.loginPage}>LogIn</button>
-                    <button id='bt-s'>SignUp</button>
+                    <button id='bt-l' onClick={this.props.check1}>LogIn</button>
+                    <button id='bt-s' onClick={this.test} >SignUp</button>
+                    {/* <button id='bt-s' onClick={this.signupcheck} >SignUp</button> */}
                 </div>
           </div>
           <div id='drop-main'>
                 <div className='dropdon'>
 
                 </div>
-
           </div>
         
 
